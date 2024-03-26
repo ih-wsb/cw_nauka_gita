@@ -1,4 +1,6 @@
 Test:
-	pip install - r requirements.txt
+    pip install -r requirements.txt
 Run:
-	python -m flask run
+    python -m flask run 
+Check:
+    python -m pylint app.py
